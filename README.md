@@ -8,12 +8,12 @@ This module makes it super simple to show animated steps on the terminal and als
 
 Below is the output of couple of [examples](examples) of what you can do with `cli-step`.
 
-#### Yarn style [output](examples/yarn.js)
+#### Yarn style [output](https://github.com/poppinss/cli-step/blob/master/examples/yarn.js)
 
 ![](http://res.cloudinary.com/adonisjs/image/upload/q_100/v1507656383/yarn_tn8ztw.gif)
 
 
-#### Publish to [npm](examples/publish.js)
+#### Publish to [npm](https://github.com/poppinss/cli-step/blob/master/examples/publish.js)
 
 ![](http://res.cloudinary.com/adonisjs/image/upload/q_100/v1507656397/publish_jr4ivb.gif)
 
@@ -98,7 +98,7 @@ Used to stop recording the time. The return value is the time spent between `sta
 
 ## A single step ☝️
 
-Everytime you call `advance` it returns an instance of the [step](index.js) class, which can be used to tweak the output, complete a step and so on.
+Everytime you call `advance` it returns an instance of the [step](https://github.com/poppinss/cli-step/blob/master/index.js#L54) class, which can be used to tweak the output, complete a step and so on.
 
 ```js
 const step1 = steps.advance('Linting...', null, 'npm run lint')
