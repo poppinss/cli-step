@@ -1,0 +1,21 @@
+{
+  "name": "cli-step",
+  "version": "1.0.0",
+  "description": "Module to create yarn like steps for your cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "cli",
+    "yarn",
+    "cli-steps"
+  ],
+  "author": "virk",
+  "license": "MIT",
+  "dependencies": {
+    "cli-spinner": "^0.2.6",
+    "colors": "^1.1.2",
+    "node-emoji": "^1.8.1"
+  }
+}
