@@ -305,13 +305,3 @@ class StepsJar {
 
 module.exports = StepsJar
 module.exports.Step = Step
-
-
-const steps = new StepsJar(1)
-const step = steps.advance('Eating banana', 'banana')
-
-// update the spinner string
-step.spinner.setSpinnerString(2)
-
-// start animation
-step.start()
